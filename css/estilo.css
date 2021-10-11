@@ -9,7 +9,7 @@ header {
     height: 233px;
 }
 
-ul {
+#nav-principal ul {
     background: #b30000;
 }
 
@@ -44,8 +44,46 @@ ul {
     background: #ff0000;
 }
 
-/* Responsividade
--------------------------------------------------*/
+/* Conteúdo da sessão
+********************************************/
+.esquerda {
+    border: 1px solid red;
+}
+
+.caixa {
+    background: url(../img/fundo-caixa.png);
+    padding: 10px;
+}
+
+.conteudo {
+    background: #ffffff;
+}
+
+/* Tipografia
+********************************************/
+h2 {
+    font-size: 1.2rem;
+    background: #2f4a85;
+    padding: 5px 10px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.menu-lateral .navbar-nav .nav-link {
+    color: #050505;
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+.menu-lateral .navbar-nav .nav-link:hover {
+    background: #ececec url(../img/marcador.png) no-repeat left center;
+    color: #860101;
+    padding-left: 25px;
+}
+
+
+
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) {
     
@@ -53,7 +91,9 @@ ul {
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .container { /* Define a largura mÄ†ļæ½xima da pÄ†ļæ½gina */
+        max-width: 100%;
+    }
 }
 
 /* Dispositivos mÄ†ĀĆ„Ādios (tablets com 768px ou mais)*/
