@@ -46,17 +46,28 @@ header {
 
 /* Conteúdo da sessão
 ********************************************/
-.esquerda {
-    border: 1px solid red;
-}
-
 .caixa {
     background: url(../img/fundo-caixa.png);
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.caixa-abaixo {
+    padding-bottom: 0;
 }
 
 .conteudo {
     background: #ffffff;
+}
+
+input.botao {
+    background: #860101;
+    color: #ffffff;
+    width: 100%;
+}
+
+input.botao:hover {
+    background: #b30000;
 }
 
 /* Tipografia
