@@ -1,5 +1,73 @@
 /* Layout
-********************************************/
+*************************************************/
 body {
     font: 14px Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: url(../img/fundo.png) repeat-x;
+    height: 233px;
+}
+
+.detalhe {
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    height:  175px;
+}
+
+.navbar-nav {
+    background: #b40000;
+    margin-top: -80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #e40202;
+    color: #fff;
+}
+
+.divisor {
+    width: 2px;
+    background: #960202;
+    margin: 12px 0;
+}
+
+/* Responsividade
+-------------------------------------------------*/
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Dispositivos mÄ†ĀĆ„Ādios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 80%;
+        min-width: 725px;
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 60%;
+    }
 }
