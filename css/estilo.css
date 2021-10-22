@@ -45,6 +45,55 @@ header {
     background: #e40202;
 }
 
+/* Section
+-------------------------------------------------*/
+.col-md, .col-md-3 {
+    padding: 0 5px;
+}
+
+.caixa {
+    background: url(../img/fundo-caixa.png);
+    margin: 20px 10px;
+}
+
+.caixa2 {
+    background: #fff;
+    margin: 8px;
+}
+
+.entrevista a {
+    font-style: italic;
+    color: #060606;
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.entrevista a:hover {
+    color: #960202;
+    background: #f1f1f1 url(../img/marcador.png) no-repeat left center;
+    padding-left: 25px;
+}
+
+.btn-danger {
+    background: #960202;
+    width: 100%;
+}
+
+.btn-danger:hover {
+    background: #e40202;
+}
+
+/* Tipografia
+-------------------------------------------------*/
+h3 {
+    background: #204781;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 /* Responsividade
 -------------------------------------------------*/
 @media (max-width: 575.98px) {
