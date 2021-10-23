@@ -1,5 +1,10 @@
 /* Layout
 *************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 body {
     font: 14px Helvetica, Arial, sans-serif;
 }
@@ -48,8 +53,7 @@ header {
 /* Section
 -------------------------------------------------*/
 .col-md, .col-md-3 {
-    margin: 10px;
-    padding: 0;
+    margin: 10px 0;
 }
 
 .caixa {
@@ -95,6 +99,7 @@ header {
     width: 100%;
     border: 5px solid #ccc;
     border-radius: 10px;
+    padding: 0;
 }
 
 .meio .conteudo-caixa a {
@@ -112,15 +117,26 @@ header {
 
 /* Section Meio baixo
 -------------------------------------------------*/
-ul.mini-lista {
-    list-style: none;
+.mini-lista {
     padding: 0;
+    margin: 0;
+}
+
+.mini-lista li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+    cursor: pointer;
+}
+
+.mini-lista li:hover {
+    background: #f1f1f1;
 }
 
 .mini-lista img {
     border: 2px solid #ccc;
     width: 80px;
     float: left;
+    margin-right: 10px;
 }
 
 .mini-lista p {
@@ -130,10 +146,6 @@ ul.mini-lista {
 
 .mini-lista a {
     text-decoration: none;
-}
-
-.mini-lista ul li a:hover {
-    background: #f1f1f1;
 }
 
 /* Tipografia
