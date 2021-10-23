@@ -60,6 +60,7 @@ header {
 
 .conteudo-caixa {
     background: #fff;
+    padding: 5px;
 }
 
 .conteudo-caixa a {
@@ -92,7 +93,7 @@ header {
 -------------------------------------------------*/
 .meio img {
     width: 100%;
-    border: 5px solid #960202;
+    border: 5px solid #ccc;
     border-radius: 10px;
 }
 
@@ -109,8 +110,30 @@ header {
     padding: 0;
 }
 
-.meio .conteudo-caixa {
-    padding: 5px;
+/* Section Meio baixo
+-------------------------------------------------*/
+ul.mini-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.mini-lista img {
+    border: 2px solid #ccc;
+    width: 80px;
+    float: left;
+}
+
+.mini-lista p {
+    font-size: 0.7rem;
+    color: #060606;
+}
+
+.mini-lista a {
+    text-decoration: none;
+}
+
+.mini-lista ul li a:hover {
+    background: #f1f1f1;
 }
 
 /* Tipografia
@@ -129,6 +152,21 @@ h4 {
     color: #fff;
     font-size: 0.8rem;
     padding: 5px;
+    text-align: center;
+}
+
+h5 {
+    color: #204781;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Rodapé
+-------------------------------------------------*/
+footer {
+    background: #204781;
+    color: #fff;
+    padding: 6px;
     text-align: center;
 }
 
