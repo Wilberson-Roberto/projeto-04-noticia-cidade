@@ -95,21 +95,21 @@ header {
 
 /* Section Meio
 -------------------------------------------------*/
-.meio img {
+.meio img, .direita img {
     width: 100%;
     border: 5px solid #ccc;
     border-radius: 10px;
     padding: 0;
 }
 
-.meio .conteudo-caixa a {
+.meio .conteudo-caixa a, .direita .conteudo-caixa a {
     color: #960202;
     padding: 0;
     border: none;
     font-style: normal;
 }
 
-.meio .conteudo-caixa a:hover {
+.meio .conteudo-caixa a:hover, .direita .conteudo-caixa a:hover {
     color: #e40202;
     background: none;
     padding: 0;
