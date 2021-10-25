@@ -97,6 +97,10 @@ header {
     text-align: justify;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    position: fixed;
+}
+
 /* Section Meio
 -------------------------------------------------*/
 .meio img, .direita img {
