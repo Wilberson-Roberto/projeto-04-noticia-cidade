@@ -93,6 +93,10 @@ header {
     margin: 0;
 }
 
+.texto {
+    text-align: justify;
+}
+
 /* Section Meio
 -------------------------------------------------*/
 .meio img, .direita img {
