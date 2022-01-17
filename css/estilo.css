@@ -34,6 +34,10 @@ header {
     color: #fff;
 }
 
+button i { /* Apenas para exibir o botão */
+    position: relative;
+}
+
 .divisor {
     width: 2px;
     background: #960202;
@@ -98,7 +102,8 @@ header {
 }
 
 .carousel-control-next, .carousel-control-prev {
-    position: fixed;
+    position: absolute;
+    margin-top: -400px;
 }
 
 /* Section Meio
